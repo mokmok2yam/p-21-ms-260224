@@ -1,4 +1,4 @@
-package com.example;
+package com.example.sbb;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

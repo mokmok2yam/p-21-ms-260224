@@ -1,5 +1,6 @@
-package com.example;
+package com.example.answer;
 
+import com.example.question.Question;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

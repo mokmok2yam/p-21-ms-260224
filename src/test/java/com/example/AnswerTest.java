@@ -1,5 +1,9 @@
 package com.example;
 
+import com.example.answer.Answer;
+import com.example.answer.AnswerRepository;
+import com.example.question.Question;
+import com.example.question.QuestionRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
