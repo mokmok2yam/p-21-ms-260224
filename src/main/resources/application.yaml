@@ -6,7 +6,7 @@ spring:
       path: /h2-console
 
   datasource:
-    url: jdbc:h2:~/local
+    url: jdbc:h2:./local
     driver-class-name: org.h2.Driver
     username: sa
     password:
@@ -14,7 +14,9 @@ spring:
   # JPA ??
   jpa:
     hibernate:
-      ddl-auto:
+      ddl-auto: update
     properties:
       hibernate:
         dialect: org.hibernate.dialect.H2Dialect
+        format_sql: true
+        show_sql: true
