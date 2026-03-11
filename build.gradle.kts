@@ -1,3 +1,4 @@
+import org.gradle.kotlin.dsl.implementation
 import org.gradle.kotlin.dsl.runtimeOnly
 
 plugins {
@@ -36,8 +37,8 @@ dependencies {
 	runtimeOnly("com.h2database:h2")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	testImplementation("org.springframework.boot:spring-boot-starter-data-jpa-test")
-
-
+	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
+	implementation ("nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect")
 }
 
 tasks.withType<Test> {
