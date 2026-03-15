@@ -85,7 +85,7 @@ class QuestionTest {
     }//질묵 삭제 테스트
     @Test
     void 질문삭제하기(){
-        questionRepository.deleteById(1);
+        questionRepository.deleteById(4);
         Optional<Question> oq = questionRepository.findById(1);
         assertThat(oq).isEmpty();
     }
